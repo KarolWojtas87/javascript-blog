@@ -80,8 +80,28 @@ body {
 }
 
 /* Tags */
-.tag-size- {
-  font-size: 72px;
+.tags {
+  display: inline;
+}
+
+.tags .tag-size-5 {
+  font-size: 28px;
+  color: #1289A7;
+}
+
+.tags .tag-size-3 {
+  font-size: 26px;
+  color: #9980FA;
+}
+
+.tags .tag-size-2 {
+  font-size: 20px;
+  color: #EE5A24;
+}
+
+.tags .tag-size-1 {
+  font-size: 16px;
+  color: #FFC312;
 }
 
 /* Authors */
