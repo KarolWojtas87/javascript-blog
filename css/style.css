@@ -79,6 +79,11 @@ body {
   margin-right: 4px;
 }
 
+/* Tags */
+.tag-size- {
+  font-size: 72px;
+}
+
 /* Authors */
 .authors li {
   margin-bottom: 12px;
