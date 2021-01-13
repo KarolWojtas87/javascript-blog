@@ -80,10 +80,6 @@ body {
 }
 
 /* Tags */
-.tags {
-  display: inline;
-}
-
 .tags .tag-size-5 {
   font-size: 28px;
   color: #1289A7;
