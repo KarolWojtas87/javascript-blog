@@ -50,6 +50,9 @@ body {
 
 .sidebar {
   flex: 1 0 0;
+  li a {
+    text-decoration: none;
+  }
 }
 
 .posts {
@@ -93,11 +96,11 @@ body {
 }
 /* Tags */ 
 .tags {
-  
+  display: inline;
 
     .tag-size-5 {
     font-size: 28px;
-    color: #1289A7;
+    color: #eb4d4b;
     }
 
     .tag-size-3 {
@@ -112,7 +115,7 @@ body {
 
     .tag-size-1 {
       font-size: 16px;
-      color: #FFC312;
+      color: #be2edd;
     }
   }
 

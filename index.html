@@ -28,7 +28,8 @@
                 </ul>
             </aside>
             <section class="posts">
-                <article class="post active" id="article-1" data-tags="cat cactus scissors" authors-name="Marion Berry">
+                <article class="post active" id="article-1" data-tags="knife cactus scissors"
+                    authors-name="Marion Berry">
                     <h3 class="post-title">Article 1</h3>
                     <p class="post-author">by Marion Berry</p>
                     <div class="post-content">
@@ -83,7 +84,7 @@
                         </ul>
                     </div>
                 </article>
-                <article class="post" id="article-3" data-tags="kid scissors dog" authors-name="George Tuxedo">
+                <article class="post" id="article-3" data-tags="kid scissors needle" authors-name="George Tuxedo">
                     <h3 class="post-title">Article 3</h3>
                     <p class="post-author">by George Tuxedo</p>
                     <div class="post-content">
@@ -345,12 +346,12 @@
     </script>
     <script id="template-tag-cloud-link" type="text/x-handlebars-template">
         {{#each tags}}
-        <li><a class="{{className}}" href="#tag-{{ tag }}">{{ tag }}({{count}})</a></li>
+        <li><a class="{{className}}" href="#tag-{{ tag }}">{{ tag }} ({{count}})</a></li>
         {{/each}}
     </script>
     <script id="template-author-cloud-link" type="text/x-handlebars-template">
         {{#each authors}}
-        <li><a href="#author-{{ author }}">{{ author }}{{count}}</a></li>
+        <li><a href="#author-{{ author }}">{{ author }} ({{count}})</a></li>
         {{/each}}
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
